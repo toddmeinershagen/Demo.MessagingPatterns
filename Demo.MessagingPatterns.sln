@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.MessagingPatterns.Client", "Demo.MessagingPatterns.Client\Demo.MessagingPatterns.Client.csproj", "{0522B13F-D9F5-4328-8FB4-AA4650C51198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.MessagingPatterns.Server", "Demo.MessagingPatterns.Server\Demo.MessagingPatterns.Server.csproj", "{2B58805A-C1ED-4D40-8050-106AF2E5F591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.MessagePatterns.Messages", "Demo.MessagePatterns.Messages\Demo.MessagePatterns.Messages.csproj", "{5F8E4929-B3F8-4B07-A4B9-038C2DB0BB20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.MessagingPatterns.Client2", "Demo.MessagingPatterns.Client2\Demo.MessagingPatterns.Client2.csproj", "{36FAEC39-E213-4EF7-BB7F-700B87E13B66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishSubscribe", "PublishSubscribe", "{E8F8515E-52F8-41FD-A296-09A6573ACBC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RequestResponse", "RequestResponse", "{B27F7111-31BC-498A-B391-C1EAA7697752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.MessagePatterns.PublishSubscribe.Publisher", "Demo.MessagePatterns.PublishSubscribe.Publisher\Demo.MessagePatterns.PublishSubscribe.Publisher.csproj", "{9FCA7519-4320-46A2-ACE9-3A05D585850E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.MessagingPatterns.PublishSubscribe.Subscriber", "Demo.MessagingPatterns.PublishSubscribe.Subscriber\Demo.MessagingPatterns.PublishSubscribe.Subscriber.csproj", "{37D63542-E267-4347-9964-659A73B13154}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F5463B90-5811-40B9-B67E-F1B20A726C1E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.MessagePatterns.PublishSubscribe.Subscriber2", "Demo.MessagePatterns.PublishSubscribe.Subscriber2\Demo.MessagePatterns.PublishSubscribe.Subscriber2.csproj", "{A1046909-141F-4BC9-AAF6-8B011392C934}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0522B13F-D9F5-4328-8FB4-AA4650C51198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0522B13F-D9F5-4328-8FB4-AA4650C51198}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0522B13F-D9F5-4328-8FB4-AA4650C51198}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0522B13F-D9F5-4328-8FB4-AA4650C51198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B58805A-C1ED-4D40-8050-106AF2E5F591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B58805A-C1ED-4D40-8050-106AF2E5F591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B58805A-C1ED-4D40-8050-106AF2E5F591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B58805A-C1ED-4D40-8050-106AF2E5F591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8E4929-B3F8-4B07-A4B9-038C2DB0BB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8E4929-B3F8-4B07-A4B9-038C2DB0BB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8E4929-B3F8-4B07-A4B9-038C2DB0BB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8E4929-B3F8-4B07-A4B9-038C2DB0BB20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36FAEC39-E213-4EF7-BB7F-700B87E13B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36FAEC39-E213-4EF7-BB7F-700B87E13B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36FAEC39-E213-4EF7-BB7F-700B87E13B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36FAEC39-E213-4EF7-BB7F-700B87E13B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FCA7519-4320-46A2-ACE9-3A05D585850E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCA7519-4320-46A2-ACE9-3A05D585850E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCA7519-4320-46A2-ACE9-3A05D585850E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCA7519-4320-46A2-ACE9-3A05D585850E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D63542-E267-4347-9964-659A73B13154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D63542-E267-4347-9964-659A73B13154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D63542-E267-4347-9964-659A73B13154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D63542-E267-4347-9964-659A73B13154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1046909-141F-4BC9-AAF6-8B011392C934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1046909-141F-4BC9-AAF6-8B011392C934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1046909-141F-4BC9-AAF6-8B011392C934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1046909-141F-4BC9-AAF6-8B011392C934}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B58805A-C1ED-4D40-8050-106AF2E5F591} = {B27F7111-31BC-498A-B391-C1EAA7697752}
+		{36FAEC39-E213-4EF7-BB7F-700B87E13B66} = {B27F7111-31BC-498A-B391-C1EAA7697752}
+		{0522B13F-D9F5-4328-8FB4-AA4650C51198} = {B27F7111-31BC-498A-B391-C1EAA7697752}
+		{9FCA7519-4320-46A2-ACE9-3A05D585850E} = {E8F8515E-52F8-41FD-A296-09A6573ACBC0}
+		{37D63542-E267-4347-9964-659A73B13154} = {E8F8515E-52F8-41FD-A296-09A6573ACBC0}
+		{A1046909-141F-4BC9-AAF6-8B011392C934} = {E8F8515E-52F8-41FD-A296-09A6573ACBC0}
+	EndGlobalSection
+EndGlobal
